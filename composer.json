@@ -1,0 +1,33 @@
+{
+    "name" : "ScoutEvent/PasswordResetBundle",
+    "description" : "Contain entities and helper functions to perform a password reset on a BaseBundle account.",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Chris Staite",
+        "email" : "chris@yourdreamnet.co.uk"
+    }],
+    "keywords" : [
+        "Scout Event Management"
+    ],
+    "license" : [
+        "GPL"
+    ],
+    "require" : {
+        "ScoutEvent/BaseBundle": ">=0.1-dev",
+    },
+    "autoload" : {
+        "psr-0" : {
+            "ScoutEvent\\PasswordResetBundle" : ""
+        }
+    },
+    "target-dir" : "ScoutEvent/PasswordResetBundle",
+    "repositories" : [{
+        "type" : "vcs",
+        "url" : "https://github.com/ScoutEvent/BaseBundle.git"
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "0.1-dev"
+        }
+    }
+}

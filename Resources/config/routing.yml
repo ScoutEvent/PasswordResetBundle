@@ -1,0 +1,4 @@
+scout_password_reset:
+    path:     /reset/{token}
+    defaults:
+        _controller: ScoutEventPasswordResetBundle:Default:reset
