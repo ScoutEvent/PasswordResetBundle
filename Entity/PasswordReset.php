@@ -24,7 +24,7 @@ class PasswordReset
     /**
      * @var string
      *
-     * @ORM\Column(name="token", type="string", length=64, unique=true)
+     * @ORM\Column(name="token", type="string", length=128, unique=true)
      */
     private $token;
 
